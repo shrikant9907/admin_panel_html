@@ -5,6 +5,7 @@
     <head> 
 
         <title>Admin Dashboard Template</title>
+
         <!-- Required meta tags -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -24,7 +25,7 @@
     </head>    
 	
 	<!-- Body Start -->
-	<body class="admin-panel">
+	<body class="admin_dashboard">
              
             <!-- Header Start -->
             <header class="header_section bg-primary position-relative">
@@ -51,22 +52,53 @@
 		
            
             <!-- Header End -->
-            
-<div class="admin_menus">
-    <div class="py-3 text-center f16 dashboard_header"><a href="index.html">Admin Dashboard</a></div>
-    <ul class="list-group rounded-0 border-0">
-        <li class="list-group-item "><a href="customers.html"><i class="fas fa-users"></i>Customers</a></li>
-        <li class="list-group-item "><a href="import-customers.html"><i class="fas fa-user-plus"></i>Import Customers</a></li>
-        <li class="list-group-item "><a href="import-manual-customers.html"><i class="fas fa-user-plus"></i>Add Customers</a></li>
-        <li class="list-group-item "><a href="settings.html"><i class="fas fa-cog"></i>Settings</a></li>
-        <li class="list-group-item"><a href="logout.html"><i class="fas fa-sign-out-alt"></i>Logout</a></li>
-    </ul>    
-    <!-- Admin Footer Start -->
-    <footer class="admin_footer text-white py-3 mt-0">
-        Copy &copy; 2019 All rights reserved.
-    </footer>   
-    <!-- Admin Footer End-->
+
+            <div class="sidebar inverse active max_w_250">
+                <div class="slisting bg-primary pti_30 max_w_250">
+                  <div class="text-center profile_image mb_30">
+                    <img class="w_150 p_5 r_20 box_shw bg-dark border-0" src="images/shrikant-profile.jpg" alt="">
+                  </div>
+             
+                  <hr>
+                  <div class="col">
+                    <p>Connect with me:</p>
+                    <ol class="socialicons text_secondary siconsbr inverse"> 
+                      <li class="facebook"><a href="#" title="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                      <li class="twitter"><a href="#" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                      <li class="instagram"><a href="#" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                      <li class="youtube"><a href="#" title="Youtube" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                    </ol>
+                  </div>
+                </div>
+               </div>
+
+<!-- Admin Sidebar Start -->
+<div class="admin_sidebar sidebar inverse active max_w_250">
+    <div class="slisting bg-dark pti_0 max_w_250">             
+        
+        <!-- Sidebar Header Start -->
+        <div class="asheader mb_10">
+            <a href="index.html">Dashboard</a>
+        </div>
+        <!-- Sidebar Header End -->
+        
+        <ul class="text-uppercase f14 heading">
+            <li><a href="customers.html"><i class="fas fa-users"></i>Customers</a></li>
+            <li><a href="import-customers.html"><i class="fas fa-user-plus"></i>Import Customers</a></li>
+            <li><a href="import-manual-customers.html"><i class="fas fa-user-plus"></i>Add Customers</a></li>
+            <li><a href="settings.html"><i class="fas fa-cog"></i>Settings</a></li>
+            <li><a href="logout.html"><i class="fas fa-sign-out-alt"></i>Logout</a></li>
+        </ul>
+    
+        <!-- Sidebar Footer Start -->
+        <div class="asfooter py_20 f12 text-center">
+            Copyright &copy; 2021 All rights reserved.
+        </div>   
+        <!-- Sidebar Footer End-->
+
+    </div>
 </div> 
+<!-- Admin Sidebar End -->
  
 <div class="page-dashboard p_y_30 p_x_10 bg-light">
         <div class="container-fluid"> 
