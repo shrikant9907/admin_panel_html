@@ -33,4 +33,49 @@ body.admin_dashboard {
   color: #CCD5DB;
 }
 
+.adheader {
+  height: 50px;
+  z-index: 1000;
+}
+.adheader .topnotify .dropdown-menu {
+  font-size: 12px;
+  border-radius: 0;
+  right: 0px !important;
+  left: unset !important;
+  -moz-transform: translate3d(0, 58px, 0px) !important;
+  -webkit-transform: translate3d(0, 58px, 0px) !important;
+  -o-transform: translate3d(0, 58px, 0px) !important;
+  -ms-transform: translate3d(0, 58px, 0px) !important;
+  transform: translate3d(0, 58px, 0px) !important;
+  box-shadow: 0px 2px 4px -3px rgba(0, 0, 0, 0.5);
+  max-height: 300px;
+  overflow-y: scroll;
+  margin-top: -9px;
+  top: 0px;
+}
+.adheader .topnotify .list-inline-item .dropdown-item i {
+  position: absolute;
+  left: 15px;
+  top: 8px;
+}
+.adheader .topnotify .list-inline-item .profile-icons .dropdown-item {
+  padding: 5px 15px 5px 30px;
+}
+.adheader .topnotify .list-inline-item .dropdown-toggle {
+  cursor: pointer;
+  padding: 15px 10px;
+}
+.adheader .topnotify .list-inline-item .dropdown-toggle.show, .adheader .topnotify .list-inline-item .dropdown-toggle:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/*Dashboard Cards*/
+.dash_card i {
+  position: absolute;
+  color: rgba(8, 67, 191, 0.2);
+  font-size: 100px;
+  left: 46px;
+  top: 29px;
+}
+
 /*# sourceMappingURL=admin-dashboard.css.map */

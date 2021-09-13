@@ -626,10 +626,6 @@ input:checked + .slider:before {
 }
  
 
-.header_section {
-    height: 50px;
-    z-index: 1000;
-}
 
 .logo_wr.adminlogo {
     max-width: 100%;
@@ -646,101 +642,24 @@ input:checked + .slider:before {
 	font-size: 20px;
 }
 
-.top-notificationicons .list-inline-item {
-	color: #fff;
-	font-size: 16px;
-	position: relative;
-	margin: 0px;
-        
-}
-
-.top-notificationicons .list-inline-item  .dropdown-toggle {
-    cursor: pointer; 
-    padding: 20px 20px;
-}
-
-.top-notificationicons .list-inline-item.show,
-.top-notificationicons .list-inline-item:hover {
-    background: rgba(0,0,0,0.1);
-} 
-
+ 
+ 
 .open .dropdown-menu {
     display:block !important; 
 }
 
-.top-notificationicons .dropdown-menu {
-    font-size: 12px;
-    border-radius: 0;
-    right: 0px !important;
-    left: unset !important;
-    -moz-transform: translate3d(0, 58px, 0px) !important;
-    -webkit-transform: translate3d(0, 58px, 0px) !important;
-    -o-transform: translate3d(0, 58px, 0px) !important;
-    -ms-transform: translate3d(0, 58px, 0px) !important;
-    transform: translate3d(0, 58px, 0px) !important;
-    box-shadow: 0px 2px 4px -3px rgba(0,0,0,0.5);
-    max-height: 300px; 
-    overflow-y: scroll; 
-    margin-top:-9px;
-    top: 0px;
-}
- 
+
 .dropdown-menu.profile-icons {
     overflow: hidden;
 }
-
-.top-notificationicons .list-inline-item .profile-icons .dropdown-item {
-	padding: 5px 15px 5px 30px;
-}
-
-.top-notificationicons .list-inline-item .dropdown-item i {
-	position: absolute;
-	left: 15px;
-	top: 8px;
-}
-
-.top-notificationicons .badge-orange {
-	position: relative;
-	top: -12px;
-	left: 6px;
-	font-size: 10px;
-}
+ 
 
 a.menu-collapse {
     color: #fff;
     display: block;
     vertical-align: top;
 }
-
-.admin_footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    right: 0;
-    left: 0;
-    height: 40px;
-    font-size: 11px;
-    padding: 10px 15px!important;
-    z-index: 1000;
-}
-
-/*social links*/
-ul.footer_social_links {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-ul.footer_social_links li {
-    display: inline-block;
-}
-
-ul.footer_social_links li a {
-    color: #fff;
-    width: 25px;
-    display: inline-block;
-}
-
+  
 /*Shortmenu*/ 
 .shortmenu .admin_menus {
     width: 100px;
@@ -1741,47 +1660,6 @@ div.request_box::before {
 }
 
 
-/*Dashboard Cards*/
- 
-
-.card.dash_card i {
-    position: absolute;
-    color: rgba(8, 67, 191, 0.2);
-    font-size: 100px;
-    left: 46px;
-    top: 29px;
-}
-
-.card.dash_card a {
-    text-decoration: none;
-}
-
-.card.dash_card a span {
-    font-size: 20px;
-    text-align: right;
-    display: block;
-    width: 100%;
-    color: #0843BF;
-}
-
-.card.dash_card b {
-    font-size: 40px;
-    display: block;
-    width: 100%;
-    padding: 8px 1px;
-    margin-top: 10px;
-    text-align: right;
-}
-
-.card.dash_card:hover {
-	box-shadow: 0 0 10px -1px #0843BF;
-	 -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -ms-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    border-color:#fff;
-}
 
  /*Data Table Overwrite*/
   
