@@ -26,8 +26,8 @@ body.admin-panel {
 }
 
 .dashboard_header a {
-	color:#ffffff;
-	text-decoration: none;
+    text-decoration: none;
+    color: #CCD5DB;
 }
 
 /*Button*/ 
@@ -861,8 +861,7 @@ input:checked + .slider:before {
 
 .admin_menus {
     min-height: 100vh;
-    /*background-color: #2699fb;*/
-    background: linear-gradient(136.3deg, #247EE5 0%, #0843BF 100%) !important;
+    background: #263238;
 }
 
 .admin_menus .list-group-item {
@@ -874,16 +873,14 @@ input:checked + .slider:before {
 .admin_menus .list-group-item a {
     text-decoration: none;
     display: block;
-    padding: 15px 10px 15px 50px;
+    padding: 10px 0px 10px 50px;
     position: relative;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -ms-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: normal;
+    color: #CCD5DB;
 }
 
 .admin_menus .list-group-item:hover a,
