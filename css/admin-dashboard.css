@@ -33,6 +33,9 @@ body.admin_dashboard {
   width: 250px;
   color: #CCD5DB;
 }
+.admin_sidebar .asfooter {
+  color: #CCD5DB;
+}
 
 .adheader {
   height: 50px;
