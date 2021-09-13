@@ -2,75 +2,86 @@
   
 <html> 
   
-    <head> 
+<head> 
 
-        <title>Admin Import Customer Template</title>
-        <!-- Required meta tags -->
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        
-        <!-- required Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-        
-        <!-- required CSS -->
-        <link rel="stylesheet" href="css/bootstrap.min.css" />
-        <link rel="stylesheet" href="css/all.min.css" />
-        <link rel="stylesheet" href="css/webstyle.css" />
-        <link rel="stylesheet" href="../../../css/components.css" />
-        <link rel="stylesheet" href="../../../css/utils.css" />
-        <link rel="stylesheet" href="css/admin-dashboard.css" />
-        <link rel="stylesheet" href="css/responsive.css" />
- 
-    </head>    
+    <title>Admin Dashboard Template</title>
+
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- required Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    
+    <!-- required CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/utils.css" />
+    <link rel="stylesheet" href="css/admin-dashboard.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+</head>    
 	
-	<!-- Body Start -->
-	<body class="admin-panel">
-             
-            <!-- Header Start -->
-            <header class="header_section bg-primary position-relative">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-12 col-md-4">
-                            <span class="display-7 d-block text-white p_t_10">Hi, Admin</span>
+<!-- Body Start -->
+<body class="admin_dashboard">
+        
+<!-- Header Start -->
+<header class="adheader box_shw2 f14 mb_10">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <span class="d-block pt_15">Hi, Admin</span>
+            </div>
+            <div class="col-12 col-md-8 topnotify">  
+                <ul class="list-inline float-right mb-0">  
+                    <li class="list-inline-item">
+                    <div  class="dropdown-toggle profile_toggle p_5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="profile-thumb-small"><i class="fas fa-user"></i></span></div>
+                        <div class="dropdown-menu profile-icons"> 
+                            <a class="dropdown-item position-relative" href=""><i class="far fa-user-circle"></i>Edit Profile</a>
+                            <a class="dropdown-item position-relative" href="http://base1.tutorsincity.com/phpjsonblog//admin/logout.php"><i class="fas fa-sign-out-alt"></i>Log Out</a> 
                         </div>
-                        
-                        <div class="col-12 col-md-8 top-notificationicons">  
-                            <ul class="list-inline float-right mb-0">  
-                                <li class="list-inline-item">
-                                <div  class="dropdown-toggle profile_toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="profile-thumb-small"><i class="fas fa-user"></i></span></div>
-                                    <div class="dropdown-menu profile-icons"> 
-                                        <a class="dropdown-item position-relative" href=""><i class="far fa-user-circle"></i>Edit Profile</a>
-                                        <a class="dropdown-item position-relative" href="http://base1.tutorsincity.com/phpjsonblog//admin/logout.php"><i class="fas fa-sign-out-alt"></i>Log Out</a> 
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>  
-                    </div> 
-            </header>
-		
-           
-            <!-- Header End -->
-            
-<div class="admin_menus">
-    <div class="py-3 text-center text-white text-bold f_16_18 text-bold dashboard_header"><a href="index.html">Dashboard</a></div>
-    <ul class="list-group rounded-0 border-0">
-        <li class="list-group-item "><a href="customers.html"><i class="fas fa-users"></i>Customers</a></li>
-        <li class="list-group-item "><a href="import-customers.html"><i class="fas fa-user-plus"></i>Import Customers</a></li>
-        <li class="list-group-item "><a href="import-manual-customers.html"><i class="fas fa-user-plus"></i>Add Customers</a></li>
-        <li class="list-group-item "><a href="settings.html"><i class="fas fa-cog"></i>Settings</a></li>
-        <li class="list-group-item"><a href="logout.html"><i class="fas fa-sign-out-alt"></i>Logout</a></li>
-    </ul>    
-    <!-- Admin Footer Start -->
-    <footer class="admin_footer text-white py-3 mt-0">
-        Copy &copy; 2019 All rights reserved.
-    </footer>   
-    <!-- Admin Footer End-->
+                    </li>
+                </ul>
+            </div>
+        </div>  
+        </div> 
+</header>
+<!-- Header End -->
+
+
+<!-- Admin Sidebar Start -->
+<div class="admin_sidebar sidebar inverse active max_w_250">
+    <div class="slisting bg-dark pti_0 max_w_250">             
+        
+        <!-- Sidebar Header Start -->
+        <div class="asheader mb_10">
+            <a href="index.html">Dashboard</a>
+        </div>
+        <!-- Sidebar Header End -->
+        
+        <ul class="text-uppercase f14 heading">
+            <li><a href="customers.html"><i class="fas fa-users"></i>Customers</a></li>
+            <li><a href="import-customers.html"><i class="fas fa-user-plus"></i>Import Customers</a></li>
+            <li><a href="import-manual-customers.html"><i class="fas fa-user-plus"></i>Add Customers</a></li>
+            <li><a href="settings.html"><i class="fas fa-cog"></i>Settings</a></li>
+            <li><a href="logout.html"><i class="fas fa-sign-out-alt"></i>Logout</a></li>
+        </ul>
+    
+        <!-- Sidebar Footer Start -->
+        <div class="asfooter py_20 f12 text-center">
+            Copyright &copy; 2021 All rights reserved.
+        </div>   
+        <!-- Sidebar Footer End-->
+
+    </div>
 </div> 
+<!-- Admin Sidebar End -->
  
-<div class="page-dashboard p_y_30 p_x_10 bg-light">
-        <div class="container-fluid"> 
+<!-- Page Content Start -->
+<div class="page-dashboard py_30 px_10">
+    <div class="container-fluid"> 
         <div class="row">  
             <div class="col-12 col-md-12">
                 <h2 class="m_b_30 f_24_28">Import Customers (.CSV) </h2>
@@ -88,24 +99,24 @@
                         </div>
                     </div> 
                     <!-- Card End     -->
-
+            
                     <button type="submit" class="btn btn-primary btn-inline-block" >Import Now</button>
                      
                 </form>
                 
                 <!-- Alert Designs:  -->
-
+            
                 <div class="alert alert-info">Import Process Started.</div>    
                 <div class="alert alert-danger">Unable to import from CSV.</div>    
                 <div class="alert alert-success">Import has been completed.</div>    
-
-
-                  </div>   
-          
+            
+            
+                  </div>     
         </div>
-        </div>
+    </div>
 </div>    
-               		
+<!-- Page Content End               		 -->
+
 <!-- Script Files --> 
 <script type="text/javascript" src="js/jquery.min.js"></script> 
 <script type="text/javascript" src="js/popper.min.js"></script> 
